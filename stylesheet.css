@@ -1,0 +1,62 @@
+/* Reset */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+    text-align: center;
+}
+
+/*Icon on ID Card*/
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+/*Form Styling*/
+#form {
+	padding: 1rem;
+}
+
+input {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+h1 {
+	margin-bottom: 1rem;
+}
+
+/*ID Card div*/
+#idCard {
+    border: 5px solid black;
+    height: 14em;
+    width: 25em;
+    display: inline-block;
+}
+
+#postFullName {
+	font-size: 2.7rem;
+	margin-top: 1.5rem;
+}
+#postAge {
+	float: left;
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+	
+}
+#postPhoneNumber {
+	float: left;
+	padding-left: 1rem;
+	
+	margin-bottom: 1rem;
+}
+#postAddress {
+	float: left;
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+}
